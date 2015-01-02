@@ -1,0 +1,11 @@
+name: oxio_application
+version: 0.0.1
+description: >
+  Application package
+author: Maciej Szopinski <maciej.sz@gmail.com>
+dependencies:
+dev_dependencies:
+  oxio_unittest:
+    git: https://github.com/maciej-sz/oxio_unittest.dart.git
+    version: ">=0.0.1"
+dependency_overrides:
